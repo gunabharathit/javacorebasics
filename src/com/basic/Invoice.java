@@ -46,5 +46,10 @@ public class Invoice {
 		{
 			this.price=price;
 		}}
-}
+
+ public double getinvoiceAmount()
+ {
+	 double invoiceAmount=price*quantity;
+	 return invoiceAmount;
+ }}
 
